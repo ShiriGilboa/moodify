@@ -1,0 +1,100 @@
+Song ID,Song Name,Artist,Length,Danceability,Energy,Key,Loudness,Mode,Speechiness,Acousticness,Instrumentalness,Liveness,Valence,Tempo,Time Signature,Spectrogram Path,Emotion
+7rJkmoGkKjLMIPI9qUQnSy,Beautiful Things - Acoustic,Benson Boone,201248,0.51,0.339,10,-6.904,1,0.0622,0.603,0,0.0911,0.239,132.674,4,./spectograms/Beautiful_Things_-_Acoustic.png,SAD
+3hRV0jL3vUpRrcy398teAU,The Night We Met,Lord Huron,208211,0.544,0.369,2,-9.514,1,0.038,0.969,0.279,0.639,0.102,87.01,3,./spectograms/The_Night_We_Met.png,SAD
+0mflMxspEfB0VbI1kyLiAv,Stick Season,Noah Kahan,182346,0.662,0.488,9,-6.894,1,0.0682,0.782,0,0.102,0.817,117.913,4,./spectograms/Stick_Season.png,SAD
+3vkCueOmm7xQDoJ17W1Pm3,My Love Mine All Mine,Mitski,137773,0.504,0.308,9,-14.958,1,0.0321,0.868,0.135,0.158,0.121,113.95,4,./spectograms/My_Love_Mine_All_Mine.png,SAD
+2HafqoJbgXdtjwCOvNEF14,Si No Estás,iñigo quintero,184061,0.537,0.421,5,-8.72,1,0.0285,0.827,0,0.138,0.524,98.224,4,./spectograms/Si_No_Estás.png,SAD
+3JvKfv6T31zO0ini8iNItO,Another Love,Tom Odell,244360,0.445,0.537,4,-8.532,0,0.04,0.695,1.65e-05,0.0944,0.131,122.769,4,./spectograms/Another_Love.png,SAD
+6wf7Yu7cxBSPrRlWeSeK0Q,"What Was I Made For? [From The Motion Picture ""Barbie""]",Billie Eilish,222369,0.444,0.0911,0,-17.665,1,0.0307,0.959,1.05e-06,0.098,0.142,78.403,4,"./spectograms/What_Was_I_Made_For?_[From_The_Motion_Picture_""Barbie""].png",SAD
+1odExI7RdWc4BT515LTAwj,Daylight,David Kushner,212953,0.508,0.43,2,-9.475,0,0.0335,0.83,0.000441,0.093,0.324,130.09,4,./spectograms/Daylight.png,SAD
+3Rviv1akOeg6RhUNvy1RBR,One Last Song,Laura Alden,209000,0.34,0.291,2,-13.435,1,0.0343,0.865,2.57e-05,0.0854,0.481,90.103,4,./spectograms/One_Last_Song.png,SAD
+3AJwUDP919kvQ9QcozQPxg,Yellow,Coldplay,266773,0.429,0.661,11,-7.227,1,0.0281,0.00239,0.000121,0.234,0.285,173.372,4,./spectograms/Yellow.png,SAD
+4KULAymBBJcPRpk1yO4dOG,I Remember Everything (feat. Kacey Musgraves),Zach Bryan,227195,0.429,0.453,0,-7.746,1,0.0459,0.554,2e-06,0.102,0.155,77.639,4,./spectograms/I_Remember_Everything_(feat._Kacey_Musgraves).png,SAD
+1kuGVB7EU95pJObxwvfwKS,vampire,Olivia Rodrigo,219724,0.511,0.532,5,-5.745,1,0.0578,0.177,0,0.291,0.35,138.005,4,./spectograms/vampire.png,SAD
+0VQjTLPG8l3egUHmIxe265,7 Years,Lukas Graham,237266,0.765,0.472,10,-5.837,1,0.052,0.291,0,0.389,0.352,119.946,4,./spectograms/7_Years.png,SAD
+0QPRDC97rIQB3Jh3hrVJoH,SNAP,Rosa Linn,179551,0.563,0.639,0,-8.205,1,0.0684,0.107,1.06e-05,0.446,0.518,169.985,4,./spectograms/SNAP.png,SAD
+0u2P5u6lvoDfwTYjAADbn4,lovely (with Khalid),Billie Eilish,200185,0.351,0.296,4,-10.109,0,0.0333,0.934,0,0.095,0.12,115.284,4,./spectograms/lovely_(with_Khalid).png,SAD
+2L9N0zZnd37dwF0clgxMGI,ceilings,Lizzy McAlpine,182887,0.516,0.322,9,-11.762,1,0.0292,0.473,0.00194,0.215,0.261,148.005,3,./spectograms/ceilings.png,SAD
+7lPN2DXiMsVn7XUKtOW1CS,drivers license,Olivia Rodrigo,242013,0.585,0.436,10,-8.761,1,0.0601,0.721,1.31e-05,0.105,0.132,143.874,4,./spectograms/drivers_license.png,SAD
+3Pbp7cUCx4d3OAkZSCoNvn,Scared To Start,Michael Marcagi,159636,0.527,0.551,7,-11.258,1,0.0345,0.384,2.75e-06,0.403,0.443,148.035,4,./spectograms/Scared_To_Start.png,SAD
+2JzZzZUQj3Qff7wapcbKjc,See You Again (feat. Charlie Puth),Wiz Khalifa,229525,0.689,0.481,10,-7.503,1,0.0815,0.369,1.03e-06,0.0649,0.283,80.025,4,./spectograms/See_You_Again_(feat._Charlie_Puth).png,SAD
+78Bdj1mJWtGZljjonxYBs7,Money,Reyn Hartley,211559,0.535,0.26,2,-13.826,1,0.0306,0.892,0.00142,0.108,0.204,144.149,4,./spectograms/Money.png,SAD
+75ZvA4QfFiZvzhj2xkaWAh,I Fall Apart,Post Malone,223346,0.556,0.538,8,-5.408,0,0.0382,0.0689,0,0.196,0.291,143.95,4,./spectograms/I_Fall_Apart.png,SAD
+7AFASza1mXqntmGtbxXprO,changes,XXXTENTACION,121886,0.669,0.308,11,-10.068,1,0.029,0.883,0,0.0984,0.52,64.934,4,./spectograms/changes.png,SAD
+2NbsBSshscKIPRG3kwBbfo,Never Felt So Alone,Labrinth,160166,0.436,0.409,5,-4.438,1,0.0533,0.499,0.000166,0.38,0.363,98.357,3,./spectograms/Never_Felt_So_Alone.png,SAD
+6xGruZOHLs39ZbVccQTuPZ,Glimpse of Us,Joji,233456,0.44,0.317,8,-9.258,1,0.0531,0.891,4.78e-06,0.141,0.268,169.914,3,./spectograms/Glimpse_of_Us.png,SAD
+561jH07mF1jHuk7KlaeF0s,Mockingbird,Eminem,250760,0.637,0.678,0,-3.798,1,0.266,0.209,0,0.156,0.254,84.039,4,./spectograms/Mockingbird.png,SAD
+11U7vG3IV3kKq6soGq9g6Q,Winter Waltz,Mimi,140000,0.671,0.0503,3,-19.823,1,0.0386,0.933,2.1e-06,0.119,0.0799,128.897,3,./spectograms/Winter_Waltz.png,SAD
+26b3oVLrRUaaybJulow9kz,People,Libianca,184791,0.573,0.422,10,-7.621,0,0.0678,0.551,1.31e-05,0.102,0.693,124.357,5,./spectograms/People.png,SAD
+1W6j6O5k2XtTY4MzdXz0MM,But Today,Greg Hunting,233700,0.518,0.32,4,-10.424,1,0.0266,0.385,0.00229,0.0841,0.173,107.826,4,./spectograms/But_Today.png,SAD
+06vNG6CiV4k8oNA0wUUAO7,Until I Found You - Piano Version,Stephen Sanchez,184895,0.603,0.148,7,-10.449,1,0.0279,0.927,0,0.101,0.228,95.451,3,./spectograms/Until_I_Found_You_-_Piano_Version.png,SAD
+1iDkZxp5tI7SWxhulZ4QHS,Not Enough,Fátima Pinto,182926,0.695,0.411,9,-7.561,0,0.0529,0.588,1.4e-05,0.122,0.305,81.967,4,./spectograms/Not_Enough.png,SAD
+6rWr1yHKNPL7xPcarvxjhA,When You're Holding Me Tight,Camille Swan,249000,0.534,0.13,0,-14.257,0,0.0341,0.905,0.000132,0.0954,0.137,121.529,3,./spectograms/When_You're_Holding_Me_Tight.png,SAD
+3U4isOIWM3VvDubwSI3y7a,All of Me,John Legend,269560,0.422,0.264,8,-7.064,1,0.0322,0.922,0,0.132,0.331,119.93,4,./spectograms/All_of_Me.png,SAD
+2d1rzqRJjwlul6vMLVWOXS,Wisconsin Winter,Laura Alden,228705,0.408,0.221,2,-15.402,1,0.0478,0.952,0.000281,0.0685,0.288,169.324,4,./spectograms/Wisconsin_Winter.png,SAD
+2TIlqbIneP0ZY1O0EzYLlc,Someone You Loved,Lewis Capaldi,182160,0.501,0.405,1,-5.679,1,0.0319,0.751,0,0.105,0.446,109.891,4,./spectograms/Someone_You_Loved.png,SAD
+2NeM9rfWo70KQej9GxeaoL,Where's My Love,SYML,202009,0.608,0.358,0,-10.018,0,0.0253,0.854,0.0186,0.113,0.365,103.94,4,./spectograms/Where's_My_Love.png,SAD
+5Y35SjAfXjjG0sFQ3KOxmm,Nobody Gets Me,SZA,180853,0.358,0.284,7,-8.285,1,0.0285,0.805,0,0.183,0.276,99.796,3,./spectograms/Nobody_Gets_Me.png,SAD
+0bM5JsBjWU4RyYlMbp0voY,Wait,M83,343253,0.426,0.228,2,-10.552,1,0.0322,0.203,0.14,0.0832,0.0826,147.986,4,./spectograms/Wait.png,SAD
+1lBQnZ1N2tKIMo1ucz0QFN,Medusa,Avalon Kane,259515,0.0999,0.3,0,-11.419,1,0.034,0.861,0.14,0.0907,0.0368,80.318,4,./spectograms/Medusa.png,SAD
+3oELxRDbAzyvOodhd5FQzB,Past Lives,sapientdream,153103,0.743,0.367,3,-11.729,1,0.0335,0.907,0.0983,0.172,0.26,115.947,4,./spectograms/Past_Lives.png,SAD
+1Xi84slp6FryDSCbzq4UCD,Arcade,Duncan Laurence,183624,0.45,0.329,9,-12.603,0,0.0441,0.818,0.00109,0.135,0.266,71.884,3,./spectograms/Arcade.png,SAD
+5dPz35akJjPqb17yeqNwqH,Ghost,Justin Bieber,153190,0.604,0.741,2,-5.571,1,0.0475,0.178,3.49e-05,0.409,0.473,153.947,4,./spectograms/Ghost.png,SAD
+6Tvzf3VEi16JMhAgOwdt2y,Birds,Imagine Dragons,219440,0.649,0.517,1,-7.428,0,0.0297,0.0146,1.63e-06,0.145,0.35,119.997,4,./spectograms/Birds.png,SAD
+3fgsZVnuSWZrDdlMt78c6v,Hole Song,Avalon Kane,331167,0.173,0.143,9,-20.599,0,0.0433,0.888,0.948,0.0997,0.0314,118.506,4,./spectograms/Hole_Song.png,SAD
+2qxmye6gAegTMjLKEBoR3d,Let Me Down Slowly,Alec Benjamin,169353,0.652,0.557,1,-5.714,0,0.0318,0.74,0,0.124,0.483,150.073,4,./spectograms/Let_Me_Down_Slowly.png,SAD
+78Sw5GDo6AlGwTwanjXbGh,Here With Me,d4vd,242484,0.574,0.469,4,-8.209,1,0.0254,0.534,9.21e-05,0.128,0.288,132.023,4,./spectograms/Here_With_Me.png,SAD
+7exHT4swWOKL5addPeqkLP,THE LONELIEST,Måneskin,247067,0.525,0.599,2,-5.001,1,0.0281,0.00151,0,0.0762,0.226,129.841,4,./spectograms/THE_LONELIEST.png,SAD
+3ZCTVFBt2Brf31RLEnCkWJ,everything i wanted,Billie Eilish,245425,0.704,0.225,6,-14.454,0,0.0994,0.902,0.657,0.106,0.243,120.006,4,./spectograms/everything_i_wanted.png,SAD
+7KZUVSXIpJBkyyj3lmkd3L,A.T.M. (All The Money),LARA D,160979,0.595,0.444,0,-6.179,1,0.05,0.766,0,0.0987,0.681,169.981,4,./spectograms/A.T.M._(All_The_Money).png,SAD
+0fBSs3fRoh1yJcne77fdu9,Video Games,Lana Del Rey,281960,0.236,0.249,6,-9.595,0,0.0348,0.811,1e-06,0.087,0.181,72.847,5,./spectograms/Video_Games.png,SAD
+0V5cvmTKsYmF5FmGGEAfmS,Je te laisserai des mots,Patrick Watson,160853,0.303,0.187,2,-16.757,1,0.0356,0.989,0.489,0.101,0.213,132.731,4,./spectograms/Je_te_laisserai_des_mots.png,SAD
+4yNk9iz9WVJikRFle3XEvn,golden hour,JVKE,209259,0.515,0.593,4,-4.801,1,0.0322,0.653,0.162,0.25,0.153,94.467,3,./spectograms/golden_hour.png,SAD
+7sXDYdXmR2PnafjkpfdCYv,Experience,Ludovico Einaudi,315426,0.382,0.422,2,-10.699,1,0.037,0.934,0.95,0.0695,0.0368,92.378,4,./spectograms/Experience.png,SAD
+1WKOnYtM6HtzYvEJlSEIv5,Runaway,AURORA,251360,0.542,0.304,11,-9.08,1,0.0346,0.638,0.000118,0.106,0.12,114.827,4,./spectograms/Runaway.png,SAD
+04sN26COy28wTXYj3dMoiZ,Bored,Billie Eilish,180933,0.614,0.318,7,-12.695,1,0.0478,0.896,0.00239,0.0795,0.112,119.959,4,./spectograms/Bored.png,SAD
+2xXNLutYAOELYVObYb1C1S,As the World Caves In,Sarah Cothran,161612,0.422,0.25,0,-6.836,1,0.0351,0.441,0,0.35,0.246,124.026,4,./spectograms/As_the_World_Caves_In.png,SAD
+1et7vATtyqLfNMjTTZIYk1,Love You Still (abcdefu romantic version),Tyler Shaw,150173,0.712,0.0784,4,-19.067,1,0.0544,0.739,0,0.107,0.642,121.443,4,./spectograms/Love_You_Still_(abcdefu_romantic_version).png,SAD
+0gplL1WMoJ6iYaPgMCL0gX,Easy On Me,Adele,224694,0.604,0.366,5,-7.519,1,0.0282,0.578,0,0.133,0.13,141.981,4,./spectograms/Easy_On_Me.png,SAD
+5uCax9HTNlzGybIStD3vDh,Say You Won't Let Go,James Arthur,211466,0.358,0.557,10,-7.398,1,0.059,0.695,0,0.0902,0.494,85.043,4,./spectograms/Say_You_Won't_Let_Go.png,SAD
+2gMXnyrvIjhVBUZwvLZDMP,Before You Go,Lewis Capaldi,215106,0.459,0.575,3,-4.858,1,0.0573,0.604,0,0.0885,0.183,111.881,4,./spectograms/Before_You_Go.png,SAD
+27OeeYzk6klgBh83TSvGMA,WITHOUT YOU,The Kid LAROI,161384,0.662,0.413,0,-7.357,1,0.0299,0.213,0,0.134,0.467,93.005,4,./spectograms/WITHOUT_YOU.png,SAD
+5tz69p7tJuGPeMGwNTxYuV,1-800-273-8255,Logic,250173,0.62,0.574,5,-7.788,0,0.0479,0.569,0,0.19,0.357,100.023,4,./spectograms/1-800-273-8255.png,SAD
+5Ohxk2dO5COHF1krpoPigN,Sign of the Times,Harry Styles,340706,0.516,0.595,5,-4.63,1,0.0313,0.0275,0,0.109,0.222,119.972,4,./spectograms/Sign_of_the_Times.png,SAD
+5hnGrTBaEsdukpDF6aZg8a,How Do I Say Goodbye,Dean Lewis,163603,0.4,0.641,8,-6.303,1,0.0674,0.214,0,0.0656,0.393,81.552,4,./spectograms/How_Do_I_Say_Goodbye.png,SAD
+0HRshWRNAwQBROvxXqG3i9,Skinny Love,Birdy,201080,0.379,0.29,4,-8.485,1,0.051,0.952,0.00106,0.118,0.169,166.467,4,./spectograms/Skinny_Love.png,SAD
+0uZnF1sn2IcNCvnyAIKNMQ,Mercy - Acoustic,Shawn Mendes,219160,0.458,0.347,11,-6.651,0,0.0381,0.712,0,0.11,0.431,78.928,4,./spectograms/Mercy_-_Acoustic.png,SAD
+0kn9QwZW8Ow9eTuZgxVEz8,Sweater Weather,Kurt Hugo Schneider,228387,0.606,0.328,10,-7.824,1,0.0305,0.876,0,0.138,0.393,124.041,4,./spectograms/Sweater_Weather.png,SAD
+30BsewEJZPxfuLNAlZPFje,"Read All About It, Pt. III",Emeli Sandé,283706,0.63,0.44,2,-7.186,1,0.0249,0.822,3.87e-06,0.0926,0.343,98.082,4,"./spectograms/Read_All_About_It,_Pt._III.png",SAD
+3bNv3VuUOKgrf5hu3YcuRo,Someone Like You,Adele,285240,0.556,0.319,9,-8.251,1,0.0281,0.893,0,0.0996,0.294,135.187,4,./spectograms/Someone_Like_You.png,SAD
+69vToJ9BMbbLlFZo7k7A7B,You Are The Reason,Calum Scott,204326,0.329,0.235,10,-7.699,1,0.0303,0.918,0,0.137,0.22,171.006,3,./spectograms/You_Are_The_Reason.png,SAD
+6c7N5N7amAOpeMykjlovjI,Walked Through Hell,Anson Seabra,216864,0.508,0.404,10,-11.092,1,0.0788,0.664,0,0.104,0.129,81.713,4,./spectograms/Walked_Through_Hell.png,SAD
+5vjLSffimiIP26QG5WcN2K,Hold On,Chord Overstreet,198853,0.618,0.443,2,-9.681,1,0.0526,0.469,0,0.0829,0.167,119.949,4,./spectograms/Hold_On.png,SAD
+5snCfoQbJ7S4cYB0K8XuJ4,Детство,Rauf & Faik,188362,0.719,0.607,10,-7.323,0,0.0398,0.636,7.91e-06,0.111,0.48,149.967,4,./spectograms/Детство.png,SAD
+13NC44aS3d0EFF58oVQ8T7,River Flows In You,Yiruma,188240,0.32,0.242,9,-19.773,1,0.0498,0.987,0.949,0.0924,0.115,145.722,4,./spectograms/River_Flows_In_You.png,SAD
+58wyJLv6yH1La9NIZPl3ne,Can We Kiss Forever?,Kina,187931,0.522,0.128,4,-18.717,1,0.0357,0.894,0.026,0.0941,0.124,109.986,4,./spectograms/Can_We_Kiss_Forever?.png,SAD
+6DOlMz0P7u3VRDzS0s2N6r,how did you move on?,calm tyson,224078,0.548,0.414,0,-9.117,1,0.0264,0.465,0,0.205,0.29,87.669,4,./spectograms/how_did_you_move_on?.png,SAD
+5LLtNp8qc3NaCIieZ2W4Dk,Night Trouble,Petit Biscuit,391256,0.411,0.364,1,-15.335,1,0.0743,0.951,0.93,0.126,0.0685,95.967,3,./spectograms/Night_Trouble.png,SAD
+4qtiS0IREUabrArESCcYd3,Green on the Leaf,Gyo Kretz,191845,0.777,0.225,9,-8.245,1,0.0331,0.887,0,0.267,0.511,119.873,4,./spectograms/Green_on_the_Leaf.png,SAD
+2VxeLyX666F8uXCJ0dZF8B,Shallow,Lady Gaga,215733,0.572,0.385,7,-6.362,1,0.0308,0.371,0,0.231,0.323,95.799,4,./spectograms/Shallow.png,SAD
+3756WdReVU4g2N98kQs9mJ,Cold Wind Blowing,Daniel Schamroth,242280,0.398,0.38,5,-7.64,1,0.0263,0.791,2.98e-05,0.204,0.31,155.899,4,./spectograms/Cold_Wind_Blowing.png,SAD
+01TnVDiet1DFTsyWKUKovl,NUMB,XXXTENTACION,186267,0.414,0.416,11,-8.024,0,0.0251,0.1,0.179,0.131,0.196,159.91,4,./spectograms/NUMB.png,SAD
+4JehYebiI9JE8sR8MisGVb,Halo,Beyoncé,261640,0.508,0.72,11,-5.908,0,0.0628,0.272,0,0.0563,0.472,79.983,4,./spectograms/Halo.png,SAD
+2eAvDnpXP5W0cVtiI0PUxV,Dandelions,Ruth B.,233720,0.609,0.692,1,-2.958,1,0.0259,0.0157,0,0.0864,0.454,116.959,3,./spectograms/Dandelions.png,SAD
+6nek1Nin9q48AVZcWs9e9D,Paradise,Coldplay,278719,0.449,0.585,5,-6.761,1,0.0268,0.0509,8.75e-05,0.0833,0.212,139.631,4,./spectograms/Paradise.png,SAD
+5C20PvvWsEPFLGQdXm0vPo,It Would Erase,ELLIOTT ARMEN,251840,0.227,0.382,2,-10.958,1,0.0342,0.196,0.946,0.107,0.104,119.901,4,./spectograms/It_Would_Erase.png,SAD
+0sHW1jXe6Sou3437gJQNGA,Space Bound,Eminem,278640,0.668,0.886,0,-3.474,1,0.117,0.0417,0,0.459,0.503,142.002,4,./spectograms/Space_Bound.png,SAD
+3ZEno9fORwMA1HPecdLi0R,HAPPY,NF,242691,0.732,0.855,7,-4.064,1,0.0415,0.306,0,0.12,0.221,106.004,4,./spectograms/HAPPY.png,SAD
+76MdMwQ4yiw1wIbA16sOrA,Apologize,Timbaland,184400,0.656,0.609,8,-6.025,1,0.0285,0.0357,0,0.0973,0.0872,118.036,4,./spectograms/Apologize.png,SAD
+7lGKEWMXVWWTt3X71Bv44I,Unsteady,X Ambassadors,193546,0.389,0.665,0,-6.169,1,0.0644,0.178,0.000732,0.116,0.199,117.055,4,./spectograms/Unsteady.png,SAD
+2kJwzbxV2ppxnQoYw4GLBZ,If the World Was Ending (feat. Julia Michaels),JP Saxe,208687,0.464,0.473,1,-10.086,1,0.129,0.866,0,0.109,0.604,75.801,4,./spectograms/If_the_World_Was_Ending_(feat._Julia_Michaels).png,SAD
+0nJW01T7XtvILxQgC5J7Wh,When I Was Your Man,Bruno Mars,213826,0.612,0.28,0,-8.648,1,0.0434,0.932,0,0.088,0.387,72.795,4,./spectograms/When_I_Was_Your_Man.png,SAD
+1ZMiCix7XSAbfAJlEZWMCp,Falling,Harry Styles,240133,0.567,0.267,4,-6.502,1,0.0299,0.839,1.46e-06,0.089,0.0592,110.011,4,./spectograms/Falling.png,SAD
+1u4809QUdAxRQGmH7yglUL,Pictures,Tundra,95564,0.699,0.464,5,-8.719,1,0.0588,0.271,0.00164,0.0852,0.418,103.948,4,./spectograms/Pictures.png,SAD
+7KS9Xn6Cb48WxYb4eP4Jon,good for me,calm tyson,180000,0.4,0.189,0,-10.684,1,0.0367,0.916,0,0.11,0.207,112.469,4,./spectograms/good_for_me.png,SAD
+3DQisSEr1TLp9H0BEeKiQS,Uncover,Zara Larsson,213543,0.556,0.529,2,-4.464,1,0.025,0.4,0,0.268,0.308,89.887,4,./spectograms/Uncover.png,SAD
+4qefHyLKbyW3yeqk5Jrjey,A Thousand Years,Christina Perri,285120,0.423,0.407,10,-7.45,1,0.0267,0.312,0.000961,0.11,0.161,139.048,3,./spectograms/A_Thousand_Years.png,SAD
+5CZ40GBx1sQ9agT82CLQCT,traitor,Olivia Rodrigo,229226,0.38,0.339,3,-7.885,1,0.0338,0.691,0,0.12,0.0849,100.607,4,./spectograms/traitor.png,SAD
+3zHq9ouUJQFQRf3cm1rRLu,"Love Me Like You Do - From ""Fifty Shades Of Grey""",Ellie Goulding,252534,0.262,0.606,8,-6.646,1,0.0484,0.247,0,0.125,0.275,189.857,4,"./spectograms/Love_Me_Like_You_Do_-_From_""Fifty_Shades_Of_Grey"".png",SAD
+2vwlzO0Qp8kfEtzTsCXfyE,Wrecking Ball,Miley Cyrus,221360,0.53,0.422,5,-6.262,1,0.0342,0.407,0,0.107,0.349,119.964,4,./spectograms/Wrecking_Ball.png,SAD
+4P9Q0GojKVXpRTJCaL3kyy,All Of The Girls You Loved Before,Taylor Swift,221407,0.718,0.467,2,-9.66,1,0.0398,0.707,6.92e-05,0.126,0.396,95.96,3,./spectograms/All_Of_The_Girls_You_Loved_Before.png,SAD
