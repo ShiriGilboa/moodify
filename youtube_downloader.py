@@ -8,7 +8,7 @@ import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 
-# Set up the YouTube Data API
+os.system("source ~/.zshrc")
 api_key = os.getenv('YONI_YOUTUBE_API')
 youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -21,7 +21,7 @@ def download_song(song_name):
     file_name = f"{file_name}.mp3"
     file_path = os.path.join(SONGS_FILES_OUTPUT_PATH, f'{file_name}')
     # Search for the song on YouTube
-    if not os.path.exists(file_path) :
+    if not os.path.exists(file_path):
         request = youtube.search().list(q=song_name, part='snippet', type='video', maxResults=1)
         response = request.execute()
 
@@ -41,26 +41,72 @@ def download_song(song_name):
     return file_path
 
 
+def load_audio_segment(song_file_path, start, duration):
+    """Load a segment of an audio file."""
+    y, sr = librosa.load(song_file_path, offset=start, duration=duration)
+    return y, sr
+
+def generate_mel_spectrogram(y, sr, n_mels=128, target_length=1292):
+    """Generate a mel-scaled spectrogram."""
+    S = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=n_mels)
+
+    # Resize or pad the spectrogram to ensure a consistent shape
+    if S.shape[1] < target_length:
+        S = np.pad(S, ((0, 0), (0, target_length - S.shape[1])), mode='constant')
+    elif S.shape[1] > target_length:
+        S = S[:, :target_length]
+
+    return S
+
+def save_spectrogram(S, file_path):
+    """Save a spectrogram to a .npy file."""
+    np.save(file_path, S)
+
+def process_song(song_name, song_file_path, num_spectrograms=3, segment_duration=30):
+    """Process a song to generate and save multiple spectrograms."""
+    # Load the entire song to determine its total duration
+    file_name = song_name.replace(" ", "_")
+    spec_path = os.path.join(SPECTOGRAM_PATH, f"{file_name}.npy")
+    y_full, sr = librosa.load(song_file_path)
+    total_duration = len(y_full) / sr
+
+    # Calculate the start times for each segment
+    segment_starts = np.linspace(0, total_duration - segment_duration, num_spectrograms)
+
+    # Initialize the list of spectrogram paths
+    spectrogram_paths = []
+
+    # Generate and save spectrograms for each segment
+    for i, start in enumerate(segment_starts):
+        spec_path = os.path.join(SPECTOGRAM_PATH, f"{file_name}_{i}.npy")
+        if not os.path.exists(spec_path):
+            y, sr = load_audio_segment(song_file_path, start, segment_duration)
+            S = generate_mel_spectrogram(y, sr)
+            save_spectrogram(S, spec_path)
+            spectrogram_paths.append(spec_path)
+    return spectrogram_paths
+
 def create_spectrogram(song_name, song_file_path):
+    file_name = song_name.replace(" ", "_")
+    spec_path = os.path.join(SPECTOGRAM_PATH, f"{file_name}.npy")
+    if not os.path.exists(spec_path):
+        load_and_process_spectrogram(song_file_path)
+    return spec_path
+
+def load_and_process_spectrogram(song_file_path):
+    # Load the song with a specific duration and offset
     y, sr = librosa.load(song_file_path, duration=30, offset=60)
 
-    # Generate the spectrogram
-    S = librosa.feature.melspectrogram(y=y, sr=sr)
+    # Compute the mel-scaled spectrogram with 128 mel bands
+    S = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128)
 
-    # Convert to dB
-    S_dB = librosa.power_to_db(S, ref=np.max)
+    # Ensure the spectrogram has 1292 time frames (adjust hop_length if needed)
+    expected_frames = 1292
+    hop_length = int(len(y) / (expected_frames - 1))
 
-    # Plot the spectrogram
-    plt.figure(figsize=(10, 4))
-    librosa.display.specshow(S_dB, x_axis='time', y_axis='mel', sr=sr)
-    plt.colorbar(format='%+2.0f dB')
-    plt.title('Spectrogram of the First 30 Seconds of the Song')
+    S = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128, hop_length=hop_length)
 
-    # Save the spectrogram to a file
-    file_name = song_name.replace(" ", "_")
-    spec_path = os.path.join(SPECTOGRAM_PATH, f"{file_name}.png")
-    plt.savefig(spec_path)
-    plt.close()  # Close the plot to free up memory
+    # Check the shape of the spectrogram
+    assert S.shape == (128, 1292), f"Unexpected spectrogram shape: {S.shape}"
 
-    print(f"Spectrogram saved to {spec_path}")
-    return spec_path
+    return S
